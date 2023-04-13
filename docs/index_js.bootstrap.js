@@ -45,7 +45,7 @@ eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__
   \******************************************/
 /***/ ((module, exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.v(exports, module.id, \"8c8a68005116cba89b57\");\n\n//# sourceURL=webpack://create-wasm-app/../pkg/network_lesson_util_bg.wasm?");
+eval("module.exports = __webpack_require__.v(exports, module.id, \"0aec541c6694ed549a97\");\n\n//# sourceURL=webpack://create-wasm-app/../pkg/network_lesson_util_bg.wasm?");
 
 /***/ })
 
