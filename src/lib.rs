@@ -26,6 +26,9 @@ impl std::fmt::Display for Bits {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         let mut s = String::new();
         for i in 0..self.0.len() {
+            if i > 0 && i % 8 == 0 {
+                s.push(' ');
+            }
             s.push(if self.0[i] { '1' } else { '0' });
         }
         write!(f, "{}", s)
